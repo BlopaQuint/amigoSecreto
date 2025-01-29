@@ -24,3 +24,17 @@ function adicionarNomeNaLista() {
         lista.innerHTML += `<li>${amigos[exibirNome]}</li>`;
     }
 }
+
+function sortearAmigo() {
+    if(amigos.length == 0) {
+        alert("Não há nomes para sortear. Por favor, adicione os nomes dos amigos.")
+    } else {
+        let nomeSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+        exibirAmigoSorteado(nomeSorteado);
+    }
+}
+
+function exibirAmigoSorteado(nome) {
+    let campoAmigoSorteado = document.getElementById("resultado");
+    campoAmigoSorteado.innerHTML = `O seu amigo secreto é: ${nome}!`;
+}
