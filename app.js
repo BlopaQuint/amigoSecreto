@@ -43,6 +43,9 @@ function sortearAmigo() {
     let nomeSorteado = amigosDisponiveis.splice(listaSorteados, 1) [0];
     console.log(amigosDisponiveis);
     exibirAmigoSorteado(nomeSorteado);
+    setTimeout(function() {
+        document.getElementById("resultado").innerHTML = "";
+    }, 5000);
 }
 
 function exibirAmigoSorteado(nome) {
