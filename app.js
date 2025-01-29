@@ -44,8 +44,11 @@ function sortearAmigo() {
     console.log(amigosDisponiveis);
     exibirAmigoSorteado(nomeSorteado);
     setTimeout(function() {
-        document.getElementById("resultado").innerHTML = "";
+        document.getElementById("resultado").innerHTML = "Limpando o nome para o próximo sorteio...";
     }, 5000);
+    setTimeout(function() {
+        document.getElementById("resultado").innerHTML = "";
+    }, 8000);
 }
 
 function exibirAmigoSorteado(nome) {
