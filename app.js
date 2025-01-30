@@ -36,7 +36,7 @@ function sortearAmigo() {
         alert("Todos os nomes já foram sorteados! Reiniciando a lista para um novo sorteio.")
         document.getElementById("listaAmigos").innerHTML = "";
         document.getElementById("resultado").innerHTML = "";
-        amigosDisponiveis = [...amigos];
+        amigosDisponiveis = [];
         amigos = [];
         return;
     }
