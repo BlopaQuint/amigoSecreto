@@ -14,14 +14,16 @@
     <main class="main-content">
         <header class="header-banner">
             <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+            <img src="assets/amizade.png" alt="Imagem grupo de amigos">
         </header>
         
         <section class="input-section">
             <h2 class="section-title">Adicione os nomes dos seus amigos</h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
-                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+                <button class="button-add" onclick="adicionarAmigo()">
+                    <img src="assets/add.png" alt="Ícone para adicionar">
+                </button>
             </div>
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
@@ -29,8 +31,8 @@
 
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
-                    Sortear amigo
+                    <img src="assets/dado.png" alt="Ícone para sortear">
+                    SORTEAR AMIGO
                 </button>
             </div>
         </section>
