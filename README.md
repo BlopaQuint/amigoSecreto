@@ -10,7 +10,7 @@ Esse projeto faz parte dos Challenges One (Challenge Based Learning, ou seja, ap
 
 ## *Funcionalidades Adicionadas*
 
-Para aperfeiçoar o projeto final exigido, implementei duas funcionalidades adicionais:
+Para aperfeiçoar o projeto final exigido, implementei três funcionalidades adicionais:
 
 1. **Evitar sorteio repetido**: O projeto foi aprimorado para garantir que um nome não seja sorteado mais de uma vez. Assim, todos os participantes terão um amigo secreto diferente a cada sorteio.
 
