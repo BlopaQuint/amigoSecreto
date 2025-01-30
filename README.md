@@ -56,6 +56,4 @@ Espero que você aprecie essa experiência tanto quanto eu gostei de criar e des
 
 ## 🚹LinkedIn
 
----
-
 🔗 [Pablo Quintiliano](https://www.linkedin.com/in/pablo-quintiliano/)
