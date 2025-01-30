@@ -10,10 +10,13 @@ Esse projeto faz parte dos Challenges One (Challenge Based Learning, ou seja, ap
 
 ## *Funcionalidades Adicionadas*
 
-Para melhorar o projeto final exigido, implementei duas funcionalidades adicionais:
+Para aperfeiçoar o projeto final exigido, implementei duas funcionalidades adicionais:
 
 1. **Evitar sorteio repetido**: O projeto foi aprimorado para garantir que um nome não seja sorteado mais de uma vez. Assim, todos os participantes terão um amigo secreto diferente a cada sorteio.
+
 2. **Reinício automático**: Quando todos os nomes tiverem sido sorteados, a lista será automaticamente limpa e reiniciada para permitir novos sorteios sem a necessidade de reiniciar manualmente.
+
+3. **Ocultação do Nome Sorteado**: Adicionei também uma funcionalidade para limpar o nome sorteado após alguns segundos. Isso garante que, após um sorteio, o nome do amigo secreto sorteado não fique visível para a próxima pessoa que for usar a aplicação, mantendo o suspense e a surpresa do sorteio. 
 
 Espero que você aprecie essa experiência tanto quanto eu gostei de criar e desenvolver este projeto!
 
