@@ -37,6 +37,7 @@ function sortearAmigo() {
         document.getElementById("listaAmigos").innerHTML = "";
         document.getElementById("resultado").innerHTML = "";
         amigosDisponiveis = [...amigos];
+        amigos = [];
         return;
     }
     let listaSorteados = Math.floor(Math.random() * amigosDisponiveis.length);
@@ -44,14 +45,14 @@ function sortearAmigo() {
     console.log(amigosDisponiveis);
     exibirAmigoSorteado(nomeSorteado);
     setTimeout(function() {
-        document.getElementById("resultado").innerHTML = "Limpando o nome para o próximo sorteio...";
-    }, 5000);
+        document.getElementById("resultado").innerHTML = "LIMPANDO O NOME PARA O PRÓXIMO SORTEIO...";
+    }, 4500);
     setTimeout(function() {
         document.getElementById("resultado").innerHTML = "";
-    }, 8000);
+    }, 7000);
 }
 
 function exibirAmigoSorteado(nome) {
     let campoAmigoSorteado = document.getElementById("resultado");
-    campoAmigoSorteado.innerHTML = `O seu amigo secreto é: ${nome}!`;
+    campoAmigoSorteado.innerHTML = `Seu amigo secreto é ${nome} !`;
 }
